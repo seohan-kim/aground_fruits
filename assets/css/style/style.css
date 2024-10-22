@@ -8,7 +8,13 @@ header .limit_wrap{max-width: 1720px; margin: 0 auto; text-align: center; positi
 header .logo_wrap{position: absolute; left: 60px; top: 50%; transform: translateY(-50%);}
 header .logo_wrap a{opacity: 0.8;}
 header .gnb_wrap{line-height: 106px;}
-header .gnb_wrap a{font-size: 22px; margin: 0 45px;}
+header .gnb_wrap a{font-size: 22px; margin: 0 2vw;}
+header .gnb_wrap a:hover{color: #fff;;}
+
+@media screen and (max-width:1040px){
+  header .limit_wrap{text-align: right; padding-right: 40px;}
+  header .gnb_wrap a{font-size: 16px; margin: 0 1vw;}
+}
 
 .hero{height: 1080px; background: url(../../images/hero.png) no-repeat 50% 0;}
 .hero p{padding-top: 18.33vw; text-align: center; font-size: 220px; color: #fff; letter-spacing: 17.6px;}
